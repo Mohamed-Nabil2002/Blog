@@ -1,0 +1,12 @@
+button {
+    margin: 3px;
+}
+
+* {
+    margin-left: 10px;
+}
+.title {
+    background-color: #4a4;
+    width: 100%;
+    padding: 5px;
+}

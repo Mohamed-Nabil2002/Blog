@@ -1,0 +1,37 @@
+
+<div>
+  <input type="text" placeholder="Title Name" [(ngModel)]="post.title">
+  <br><br>
+  <input type="text" placeholder="Description" [(ngModel)]="post.description">
+  <br><br>
+  <button class="btn btn-primary" (click)="updateMode?editPost():createPost()">{{updateMode?"Edit":"Create"}}</button>
+  <br><br>
+</div>
+<!-- 
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card shadow">
+        <div class="card-title text-center border-bottom">
+          <h2 class="p-3">Create Post</h2>
+        </div>
+        <div class="card-body">
+          <form class="mb-4 mt-5">
+            <div class="mb-4">
+              <input  type="text" [(ngModel)]="post.title">
+            </div>
+            <div class="mb-4">
+<input type="text" [(ngModel)]="post.description">
+            </div>
+            <div class="mb-4">
+              <input type="text" [(ngModel)]="post.username">
+            </div>
+
+                <button class="btn btn-primary" (click)="updateMode?editPost():createPost()">{{updateMode?"Edit":"Create"}}</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
